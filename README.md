@@ -8,6 +8,7 @@ Sistem manajemen penjualan Keripik Pangsit dengan fitur produk, transaksi, manaj
 keripik-pangsit/
 ├── config/           # Konfigurasi database (PostgreSQL & Redis)
 ├── controller/       # HTTP handler layer
+├── helper/           # Helper function
 ├── repository/       # Data access layer (DB + Redis cache)
 ├── routes/           # Routing Gin
 ├── models/           # Domain models & request structs
